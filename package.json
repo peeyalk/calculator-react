@@ -2,10 +2,10 @@
   "name": "calculator",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "http://ahfarmer.github.io/calculator",
+  "homepage": "http://peeyalk.github.io/calculator-react",
   "devDependencies": {
     "chai": "^4.2.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.17.1",
     "react-scripts": "^3.0.1"
   },
