@@ -4,47 +4,54 @@ html {
 }
 
 body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
+  background-color: white;
   font-family: sans-serif;
   height: 100%;
+  max-width: 500px;
+  margin: auto;
+  background: white;
 }
 
 #root {
+  background-color: white;
+  font-family: sans-serif;
   height: 100%;
+  max-width: 500px;
+  margin: auto;
+  background: white;
 }
 
 body .github-fork-ribbon:before {
   background-color: #333;
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 300px) {
   .github-fork-ribbon {
     display: none;
   }
 }
 
-@media (min-width: 400px) and (min-height: 400px) {
+/* @media (min-width: 500px) and (min-height: 400px) {
   html {
     font-size: 20px;
   }
-}
+} */
 
-@media (min-width: 500px) and (min-height: 500px) {
+@media (min-width: 100px) and (min-height: 0px) {
   html {
     font-size: 30px;
   }
 }
 
-@media (min-width: 600px) and (min-height: 600px) {
+/* @media (min-width: 600px) and (min-height: 600px) {
   html {
     font-size: 40px;
   }
-}
+} */
 
-@media (min-width: 800px) and (min-height: 800px) {
+/* @media (min-width: 800px) and (min-height: 800px) {
   html {
     font-size: 50px;
   }
-}
+} */

@@ -63,15 +63,23 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="component-app">
-        <Display value={this.state.next || this.state.total || "0"} />
-        <KeyboardEventHandler
+      <React.Fragment>
+        <div className="component-app">
+          <Display value={this.state.next || this.state.total || "0"} />
+          <KeyboardEventHandler
             handleKeys={["all"]}
             onKeyEvent={this.handleKeyPress}
           />
-        <ButtonPanel clickHandler={this.handleClick}>
-        </ButtonPanel>
-      </div>
+          <ButtonPanel clickHandler={this.handleClick} />
+          <a
+            className="github-fork-ribbon left-top"
+            href="https://github.com/ahfarmer/calculator"
+            title="Fork me on GitHub"
+          >
+            Fork me on GitHub
+          </a>
+        </div>
+      </React.Fragment>
     );
   }
 }
